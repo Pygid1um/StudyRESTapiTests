@@ -1,4 +1,4 @@
-package ds.anosov;
+package ds.anosov.Tests;
 
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
