@@ -38,7 +38,7 @@ public class DemowebshopTests extends TestBase {
                     .post("/login")
                     .then()
                     .log().all()
-                    .statusCode(200)
+                    .statusCode(302)
                     .extract().cookie(authCookieName);
 
             step("Открыть легковесную страницу сайта", () ->
